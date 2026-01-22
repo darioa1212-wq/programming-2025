@@ -1,5 +1,5 @@
 # Recursion
-# Author: Ubial
+# Author: Dario
 # 20 October
 
 # Create a function that draws trees recursively

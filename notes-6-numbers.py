@@ -1,5 +1,5 @@
 # Numbers and Operations
-# Author: Ubial
+# Author: Dario
 # 5 November 2025
 
 # Create an algorithm to gather

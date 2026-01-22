@@ -1,5 +1,5 @@
 # Classes and Objects
-# Author: Ubial
+# Author: Dario
 # 11 December 2025
 
 import random
@@ -34,7 +34,7 @@ class Pokemon:
         print(f"    Level: {self.level}")
         print("--------------------------------")
 
-    def find_something(self, how_many_things=1) -> str:
+    def find_something(self, how_many_things=1) -> list[str]:
         """Send pokemon to find something
 
         Returns:
@@ -60,10 +60,21 @@ class Squirtle(Pokemon):
         """Squirtle shoots water out of its mouth"""
         print(f"{self.name} used water gun!")
 
+class Mew(Pokemon):
+    def __init__(self):
+        # call the constructor of the parent class
+        super().__init__()
+        self.name = "Mew"
+        self.type = "Psychic"
+        self.species = "Mew"
+        self.level = 1
+        self.age = 0
+
 
 if __name__ == "__main__":
     # Create a pokemon object
     pokemon_one = Pokemon()
+
     # Access the pokemon's properties
     print("Pokemon name: ", pokemon_one.name)
     # Change the pokemone's properties
@@ -98,20 +109,7 @@ if __name__ == "__main__":
     # use .talk()
     squirtle_one.talk()
 
-    class Pokemon:
-        ...
-        def dance(self, style="silly"):
-            """Make the pokemon dance
-
-            Args:
-                style: type of dance (silly, happy, epic)
-            """
-            dance_moves = {
-                "silly": ["wiggle", "spin in place", "jump up and down"],
-                "happy": ["shake tail", "twirl", "clap hands"],
-                "epic": ["backflip", "headspin", "moonwalk"]
-            }
-
-            moves = dance_moves.get(style, dance_moves["silly"])
-            move = random.choice(moves)
-            print(f"{self.name} does a {style} dance: {move}! ")
+    # Create a Mew object
+    pokemon_three = Mew()
+    pokemon_three.talk()
+    pokemon_three.stats()

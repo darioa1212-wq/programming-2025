@@ -1,6 +1,6 @@
 # Notes - Introduction
 # 16 September
-# Tim Ubial
+# Dario
 
 # Create an algorithm to solve a problem
 # Problem: Create our own chatbot

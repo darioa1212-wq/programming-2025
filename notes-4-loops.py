@@ -1,5 +1,5 @@
 # Drawing and Loops
-# Author: Ubial
+# Author: Dario
 # 14 October 2025
 
 import random

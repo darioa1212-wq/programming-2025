@@ -1,5 +1,5 @@
 # Functions
-# Author: Ubial
+# Author: Dario
 # 8 October
 
 # function to print "hello" to the console
